@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topo, footer{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #5700cb;
+    color: #fff;
+}
+
+.container-banner{
+    width: 100%;
+    text-align: center;
+}
+
+.banner  img{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.quemSomos{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.quemSomos p:last-of-type{
+    display: inline;
+    background-color: #9154e3;
+    padding: 10px 5px;
+}
+
+.container-tabela{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.tabela{
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.tabela th{
+    background-color: #696969;
+}
+
+.tabela tr:nth-of-type(odd) {
+    background-color: #5700cb;
+}
+
+.tabela tr:nth-of-type(even){
+    background-color: #9154e3;
+}
+
+.tabela p{
+    margin: 10px;
+    padding: 0 0 0 10px;
+}
+
+.tabela h3{
+    margin: 0;
+    padding: 10px;
+}
+
